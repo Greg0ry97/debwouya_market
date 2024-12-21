@@ -64,8 +64,7 @@ void main() {
         ChangeNotifierProvider(create: (_) => OtpController()),
         ChangeNotifierProvider(create: (_) => CreateNewPasswordController()),
         ChangeNotifierProvider(create: (_) => BusinessVerificationController()),
-        ChangeNotifierProvider(
-            create: (_) => AddYourBusinessDetailsController()),
+        ChangeNotifierProvider(create: (_) => AddYourBusinessDetailsController()),
         ChangeNotifierProvider(create: (_) => BottomNavBarController()),
         ChangeNotifierProvider(create: (_) => ProfileController()),
         ChangeNotifierProvider(create: (_) => EditProfileController()),
